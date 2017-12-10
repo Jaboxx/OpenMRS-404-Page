@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400');
+
+html, body{
+	background-color: #f7f5f0;
+	overflow-x: hidden;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	color: #555;
+}
+
+.outer{
+	display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.main-information{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.separator{
+	height:1px;
+	background:#717171;
+	border-bottom: 1px solid #E2DEDE;
+	width: 560px;
+	margin: 0 auto 15px;
+}
+
+.gradient{
+	background: -webkit-gradient(linear,left top,right top,color-stop(0,rgba(0,0,0,0)),color-stop(35%,rgba(0,0,0,.09)),color-stop(70%,rgba(0,0,0,.09)),color-stop(100%,rgba(0,0,0,0)));
+    background: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.09) 35%,rgba(0,0,0,.09) 70%,rgba(0,0,0,0) 100%);
+    background: -moz-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.09) 35%,rgba(0,0,0,.09) 70%,rgba(0,0,0,0) 100%);
+	border-bottom: 0px !important;
+}
+
+.description{
+	font-size: 19px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+button{
+	font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: #9a9898;
+    font-size: 21px;
+    padding: 10px 20px;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 3px solid #adadad;
+	display: flex;
+	margin: 0 auto;
+	transition: all linear 0.2s;
+}
+
+button:hover{
+	color: #f7f5f0;
+	background-color: #adadad;
+}
+
+a{
+	text-decoration: none;
+}
+
+i{
+	font-size: 25px;
+	margin-left: 12px;
+}
